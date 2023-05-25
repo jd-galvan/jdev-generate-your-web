@@ -4,7 +4,9 @@ This is a tool that uses OpenAI models to create html and it is able to be rende
 
 ![Writing my wish](./public/img1.png)
 
-![Writing my wish](./public/img2.png)
+![Wating](./public/img2.png)
+
+![Your web :)](./public/img3.png)
 
 
 ## Setup
@@ -31,7 +33,15 @@ This is a tool that uses OpenAI models to create html and it is able to be rende
    ```powershell
    $ copy .env.example .env
    ```
-6. Add your [API key](https://platform.openai.com/account/api-keys) to the newly created `.env` file
+6. Add your variables to the newly created `.env` file
+   
+   OPENAI_API_KEY= Your openai [api key](https://platform.openai.com/account/api-keys)
+
+   OPENAI_MODEL= Recommended model is text-davinci-003. Check more [models](https://platform.openai.com/docs/models/gpt-3-5
+   )
+
+   OPENAI_MODEL_TEMPERATURE= Set the temperature. Recommended is 0. [Check more](https://platform.openai.com/docs/models/gpt-3-5)
+
 
 7. Run the app
 
