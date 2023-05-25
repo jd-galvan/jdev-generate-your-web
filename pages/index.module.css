@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIRegular.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ColfaxAI";
+  src: url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff2) format("woff2"),
+    url(https://cdn.openai.com/API/fonts/ColfaxAIBold.woff) format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.form input[type="text"] {
+  padding: 12px 16px;
+  border: 1px solid #10a37f;
+  border-radius: 4px;
+  margin-bottom: 24px;
+  outline-color: #10a37f;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  width: 80%;
+}
+
+.form input[type="submit"] {
+  padding: 12px 0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.btnEnabled {
+  background-color: #10a37f;
+}
+
+.btnDisabled {
+  background-color: #bec8c5;
+}
+
+.flexContainer {
+  display: flex;
+  height: 600px;
+}
+
+.flexChild {
+  flex: 1;
+  border: 2px solid #10a37f;
+}
+
+.web {
+  flex: 1;
+  border: 2px solid #10a37f;
+  overflow-y: scroll
+}
+
+.code {
+  flex: 1;
+  border: 2px solid #10a37f;
+  background-color: rgb(79, 77, 77);
+  color: white;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+  padding: 10px;
+  overflow-y: scroll
+}
+
+.code p {
+  white-space: pre-wrap;
+}
