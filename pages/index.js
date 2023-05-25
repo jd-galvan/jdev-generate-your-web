@@ -39,6 +39,7 @@ export default function Home() {
           <input
             type="text"
             name="feature"
+            autoComplete="off"
             placeholder="¿Qué quieres que tenga tu web?"
             value={featureInput}
             onChange={(e) => setFeature(e.target.value)}
