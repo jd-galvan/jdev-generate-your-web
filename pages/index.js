@@ -39,7 +39,7 @@ export default function Home() {
           <input
             type="text"
             name="feature"
-            placeholder="¿Cómo quieres que se vea la web?"
+            placeholder="¿Qué quieres que tenga tu web?"
             value={featureInput}
             onChange={(e) => setFeature(e.target.value)}
           />
